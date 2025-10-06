@@ -4,7 +4,7 @@ import enums.Gender;
 
 
 public class Director extends Person {
-    protected int numberOfShows;
+    int numberOfShows;
     public Director(String firstName, String lastName, Gender gender) {
         super(firstName, lastName, gender);
         this.numberOfShows = 0;
