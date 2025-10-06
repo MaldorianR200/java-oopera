@@ -70,7 +70,7 @@ public class Main {
         director1.printDirectorInfo();
         director2.printDirectorInfo();
 
-        System.out.println("\n🎭 Спектакли начинаются! Приятного просмотра! 🎭");
+        System.out.println("\n🎭 Спектакли начинаются! Приятного просмотра! 🎭\n");
     }
 }
 
