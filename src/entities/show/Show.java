@@ -15,11 +15,11 @@ public class Show {
         this.duration = duration;
         this.director = director;
         actors = new ArrayList<>();
-    }
 
-    // Метод для вывода информации о режиссёре
-    public void printDirectorInfo() {
-        System.out.println("Режиссёр: " + director.getFirstName() + " " + director.getLastName());
+        // Автоматически увеличиваем счётчик постановок
+        if (director != null) {
+            director.incrementNumberOfShows();
+        }
     }
 
     // Метод для вывода списка актёров

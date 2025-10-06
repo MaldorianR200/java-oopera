@@ -3,12 +3,13 @@ package entities.person;
 import enums.Gender;
 
 public class Actor extends Person {
-    String numberOfShows;
-
-    public Actor(String name, String superName, Gender gender, int height,  String numberOfShows) {
-        super(name, superName, gender, height);
-        this.numberOfShows = numberOfShows;
+    int height;
+    public Actor(String name, String superName, Gender gender, int height) {
+        super(name, superName, gender);
+        this.height = height;
     }
 
-    public String getNumberOfShows() { return numberOfShows; }
+    public int getHeight() {
+        return height;
+    }
 }

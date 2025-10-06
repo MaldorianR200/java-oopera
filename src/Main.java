@@ -11,13 +11,13 @@ public class Main {
         System.out.println("🎭 Театр открывается! 🎭\n");
 
         // Создаём актёров
-        Actor actor1 = new Actor("Иван", "Петров", Gender.MALE, 185, "15 спектаклей");
-        Actor actor2 = new Actor("Мария", "Сидорова", Gender.FEMALE, 170, "12 спектаклей");
-        Actor actor3 = new Actor("Алексей", "Иванов", Gender.MALE, 178, "8 спектаклей");
+        Actor actor1 = new Actor("Иван", "Петров", Gender.MALE, 185);
+        Actor actor2 = new Actor("Мария", "Сидорова", Gender.FEMALE, 170);
+        Actor actor3 = new Actor("Алексей", "Иванов", Gender.MALE, 178);
 
         // Создаём режиссёров
-        Director director1 = new Director("Сергей", "Режиссёров", Gender.MALE, 180);
-        Director director2 = new Director("Ольга", "Постановкина", Gender.FEMALE, 165);
+        Director director1 = new Director("Сергей", "Режиссёров", Gender.MALE);
+        Director director2 = new Director("Ольга", "Постановкина", Gender.FEMALE);
 
         // Создаём автора музыки и хореографа
         String musicAuthor = "Пётр Композиторов";
@@ -67,8 +67,8 @@ public class Main {
 
         // Выводим информацию о режиссёрах
         System.out.println("\n=== Информация о режиссёрах ===");
-        regularShow.printDirectorInfo();
-        opera.printDirectorInfo();
+        director1.printDirectorInfo();
+        director2.printDirectorInfo();
 
         System.out.println("\n🎭 Спектакли начинаются! Приятного просмотра! 🎭");
     }
