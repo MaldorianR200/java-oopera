@@ -1,4 +1,4 @@
-﻿import entities.person.Actor;
+import entities.person.Actor;
 import entities.person.Director;
 import entities.show.Ballet;
 import entities.show.Opera;
@@ -73,3 +73,5 @@ public class Main {
         System.out.println("\n🎭 Спектакли начинаются! Приятного просмотра! 🎭");
     }
 }
+
+
